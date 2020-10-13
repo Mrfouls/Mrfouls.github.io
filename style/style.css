@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 
+	border-box;
+}
+body{
+	background-image:url(../img/back.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lobster', cursive;
+}	
+.containers{
+	background-color: #424ef5;
+	width:1200px;
+	margin:0 auto;
+	margin-top: 10px; 
+}
+.box{
+	width: 100px;
+	margin: 10px;
+	background-color: #00e1ff;
+	border: 1px solid black;
+	flex-grow: 1;
+	background-color: transparent;
+}
+.row{
+	display: flex;
+	width: 100%
+}
+.col2{
+	flex-grow: 2;
+}
+.val{
+	height: 325px;
+	display: flex;
+}
+.coun{
+	width: 400px;
+	height: 325px;
+	display: flex;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+.gab{
+	width: 700px;
+	height: 325px;
+	display: flex;
+	background-color: transparent;
+}
+
+
+

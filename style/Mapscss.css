@@ -1,0 +1,42 @@
+.Mir{
+	width: 700px;
+	height: 325px;
+	display: flex;
+	background-color: transparent;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lobster', cursive;
+}
+.box-image{
+	background-color: transparent;
+}
+.carousele{
+	margin: 10px;
+}
+.carousele div img{
+	width: 1000px;
+}
+.slick-next {
+    right: 1px;
+}
+.slick-prev {
+    left: 1px;
+}
+.car{
+	display: block;
+  margin: 0 auto;
+}
+.ves{
+	text-align: center;
+	font-size: 75px;
+	color:green;
+}
